@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "33c0a200-ebd1-4fe5-a83a-d3a7098882d9",
+		"name": "RedisCache",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24824952"
+	},
+	"item": [
+		{
+			"name": "Get chuyenmuc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/sach/searchNative/truyen",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sach",
+						"searchNative",
+						"truyen"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
